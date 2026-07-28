@@ -1,0 +1,9 @@
+a = 5
+f = "type : "
+print (f, type(a))
+b = 5.5
+print (f, type(b))
+c = ("coding")
+print(f,type(c))
+d = True
+print(f, type(d))
