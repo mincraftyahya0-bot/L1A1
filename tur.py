@@ -11,9 +11,11 @@ angle=360.0/num
 for i in range(num):
     polygon.forward(len)
     polygon.right(angle)
+
+turtle.done()
 #activity2
 turtle.clear
-turtle.Screen().bgcolor("Auqa")
+turtle.Screen().bgcolor("aqua")
 board=turtle.Turtle()
 
 board.forward(100)
