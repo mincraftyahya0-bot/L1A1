@@ -1,5 +1,5 @@
 #activity1
-import turtle
+'''import turtle
 turtle.Screen().bgcolor("orange")
 turtle.Screen().setup(300,400)
 polygon=turtle.Turtle()
@@ -31,6 +31,16 @@ board.right(90)
 board.right(120)
 board.forward(100)
 board.right(120)
-board.forward(100)
+board.forward(100)'''
 
-turtle.done()
+#activity3
+import turtle
+num=0
+turtle.tracer(0)
+while True:
+  for i in range(4): 
+    turtle.fd(num + 1)
+    turtle.left(90)
+    num = num - 5
+    num = num + 1
+    turtle.update()
