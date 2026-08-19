@@ -35,12 +35,16 @@ board.forward(100)'''
 
 #activity3
 import turtle
+import random
+turtle.Screen().bgcolor("blue")
 num=0
 turtle.tracer(0)
+count=0
+color=["yellow","white","purple","green"]
 while True:
   for i in range(4): 
     turtle.fd(num + 1)
     turtle.left(90)
-    num = num - 5
-    num = num + 1
+    num = num + 4
     turtle.update()
+    turtle.color(random.choice(color))
